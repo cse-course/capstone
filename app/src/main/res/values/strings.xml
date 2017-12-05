@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quadratic Equation Solution</string>
+    <string name="solve">Bắt Đầu Giải</string>
+    <string name="labelA">Nhập A</string>
+    <string name="labelB">Nhập B</string>
+    <string name="labelC">Nhập C</string>
+</resources>

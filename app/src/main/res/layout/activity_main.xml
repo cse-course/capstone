@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.nduyhai.capstone.MainActivity">
+
+    <TextView
+        android:id="@+id/LblA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelA"
+        android:layout_x="40dp"
+        android:layout_y="30dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/LblB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelB"
+        android:layout_x="40dp"
+        android:layout_y="60dp" />
+
+    <TextView
+        android:id="@+id/LblC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelC"
+        android:layout_x="40dp"
+        android:layout_y="90dp"/>
+
+    <EditText
+        android:id="@+id/TxtA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_x="150dp"
+        android:layout_y="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/TxtB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_x="150dp"
+        android:layout_y="35dp"/>
+
+    <EditText
+        android:id="@+id/TxtC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_x="150dp"
+        android:layout_y="70dp" />
+
+    <Button
+        android:id="@+id/BtnSolve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solve"
+        android:layout_x="130dp"
+        android:layout_y="110dp"
+        android:onClick="onSolveQuadraticEquation" />
+
+</AbsoluteLayout>
