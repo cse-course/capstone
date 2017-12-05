@@ -72,21 +72,21 @@
         android:id="@+id/LblResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="130dp"
+        android:layout_x="40dp"
         android:layout_y="180dp" />
 
     <TextView
         android:id="@+id/LblX1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="130dp"
+        android:layout_x="40dp"
         android:layout_y="210dp" />
 
     <TextView
         android:id="@+id/LblX2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="130dp"
+        android:layout_x="40dp"
         android:layout_y="240dp" />
 
 </AbsoluteLayout>
